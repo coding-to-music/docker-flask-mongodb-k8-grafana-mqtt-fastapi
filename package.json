@@ -1,0 +1,24 @@
+{
+  "name": "docker-flask-mongodb-k8-grafana-mqtt-fastapi",
+  "version": "1.0.0",
+  "description": "[![test-build](https://github.com/danionescu0/docker-flask-mongodb-example/actions/workflows/test_build.yml/badge.svg?branch=master)](https://github.com/danionescu0/docker-flask-mongodb-example/actions/workflows/test_build.yml)",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "deploy": "git add . && git commit -m Build && git push",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danionescu0/docker-flask-mongodb-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danionescu0/docker-flask-mongodb-example/issues"
+  },
+  "homepage": "https://github.com/danionescu0/docker-flask-mongodb-example#readme"
+}
